@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+.next/
+
+# Security
+*.key
+*.pem
+*.p12
+.ssh/
+credentials/
+
+# Uploads
+uploads/
+temp/
